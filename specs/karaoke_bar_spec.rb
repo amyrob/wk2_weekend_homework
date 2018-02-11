@@ -13,4 +13,4 @@ class KaraokeBarTest < Minitest::Test
     assert_equal(1010, @karaoke_bar.guest_pays_entry())
   end
 
-end
+end #end of class

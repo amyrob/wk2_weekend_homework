@@ -14,7 +14,7 @@ class SongTest < Minitest::Test
   end
 
   def test_song_available
-    assert_equal("Call The Shots", @song2.title)
+    assert_equal("Rude Boy", @song1.title)
   end
-  
+
 end #end of class
