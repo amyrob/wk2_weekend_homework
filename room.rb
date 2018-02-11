@@ -24,10 +24,8 @@ class Room
   end
 
   def fav_song_in_playlist
-    for song in @playlist
-      if song = @fav_song
-      end
-      return  "Woohoo...That's my jam!!"
-    end
+    playlist.find { |song| @fav_song }
+    return  "Woohoo...That's my jam!!"
   end
+
 end #end of class
